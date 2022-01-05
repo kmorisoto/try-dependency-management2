@@ -9,6 +9,7 @@ plugins {
 dependencies {
     implementation("org.apache.commons:commons-text")
     implementation(project(":utilities"))
+    implementation("org.assertj:assertj-parent-pom:2.2.1")
 }
 
 application {
