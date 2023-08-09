@@ -32,7 +32,7 @@ dependencies {
     // Use JUnit Jupiter for testing.
     testImplementation("org.junit.jupiter:junit-jupiter:5.7.2")
     
-    implementation("ch.qos.logback:logback-parent:1.2.4")
+    implementation("ch.qos.logback:logback-parent:1.4.11")
 }
 
 tasks.named<Test>("test") {
